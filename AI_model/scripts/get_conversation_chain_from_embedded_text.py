@@ -1,7 +1,6 @@
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain.llms import HuggingFaceHub
-from huggingface_hub import InferenceClient
 from langchain.chat_models import ChatOpenAI
 
 
