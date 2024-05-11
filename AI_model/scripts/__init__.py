@@ -1,3 +1,5 @@
 import scripts.get_text_from_pdfs as get_text_from_pdfs
 import scripts.get_text_chunks_from_rawtext as get_text_chunks_from_rawtext
 import scripts.get_vectorstore_from_text_chunks as get_vectorstore_from_text_chunks
+import scripts.get_conversation_chain_from_embedded_text as get_conversation_chain_from_embedded_text
+import scripts.html_templates as html_templates
