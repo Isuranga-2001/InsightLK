@@ -1,0 +1,11 @@
+_ = !pip install langchain
+_ = !pip install unstructured
+_ = !pip install openai
+_ = !pip install pybind11
+_ = !pip install chromadb
+_ = !pip install Cython
+_ = !pip3 install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+_ = !pip install unstructured[local-inference]
+_ = !CC=clang CXX=clang++ ARCHFLAGS="-arch x86_64" pip install 'git+https://github.com/facebookresearch/detectron2.git'
+_ = !pip install layoutparser[layoutmodels,tesseract]
+_ = !pip install pytesseract
